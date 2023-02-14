@@ -21,7 +21,7 @@ namespace ConsoleApp1
 
         static void Main(string[] args)
         {
-            int dig = 12345;
+            int dig = 12345; // Создаем число для примера
             Console.WriteLine($"Сумма цифр числа {dig} равна {SumDig(dig)}"); // Вызов функции
             Console.ReadKey();
         }
